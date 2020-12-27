@@ -1,7 +1,7 @@
 import Form, { FormProps, withTheme } from '@rjsf/core';
 import React, { useState } from 'react';
 import { JSONSchema7 } from 'json-schema';
-import { AntdRjsfTheme } from '../../src';
+import { AntdRjsfTheme } from '../../AntdTheme';
 import styled from 'styled-components';
 import { Button, Card, Col, Input, message, Row } from 'antd';
 import produce from 'immer';
